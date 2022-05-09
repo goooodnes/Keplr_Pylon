@@ -23,8 +23,8 @@ window.onload = async () => {
         alert("Please install keplr extension");
     } else 
     await window.keplr.experimentalSuggestChain({
-    chainId: "lilmermaid-16v1",
-    chainName: "E-Money",
+    chainId: "pylons-testnet-3",
+    chainName: "PYLON",
     rpc: "http://95.214.53.132:26757", // replace with your rpc url
     rest: "http://95.214.53.132:1717", // replace with your rest api url
     bip44: {
