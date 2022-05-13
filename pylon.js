@@ -46,5 +46,7 @@ window.onload = async () => {
         average: 0.025,
         high: 0.03,
     },
+    features: [
+        "cosmwasm", "ibc-transfer", "ibc-go", "wasmd_0.24+"
+    ],
 });
-}
