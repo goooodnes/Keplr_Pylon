@@ -47,6 +47,6 @@ window.onload = async () => {
         high: 0.03,
     },
     features: [
-        "cosmwasm", "ibc-transfer", "ibc-go", "wasmd_0.24+"
+        "ibc-transfer", "ibc-go"
     ],
 });
