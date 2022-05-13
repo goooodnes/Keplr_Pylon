@@ -40,13 +40,16 @@ window.onload = async () => {
         coinDecimals: 6,
         coinGeckoId: "upylon",
     },
-     coinType: 118,
-     gasPriceStep: {
+    coinType: 118,
+    gasPriceStep: {
         low: 0.01,
         average: 0.025,
         high: 0.03,
     },
-    features: [
+    
+    features: [{
         "cosmwasm", "ibc-transfer", "ibc-go", "wasmd_0.24+"
-    ],
+    },
+              ],
 });
+}
