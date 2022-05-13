@@ -1,7 +1,4 @@
-window.onload = async () => {
-    if (!window.keplr) {
-        alert("Please install keplr extension");
-    } else 
+
     await window.keplr.experimentalSuggestChain({
     chainId: "pylons-testnet-3",
     chainName: "PYLON",
@@ -51,4 +48,4 @@ window.onload = async () => {
     },
               
 });
-}
+
